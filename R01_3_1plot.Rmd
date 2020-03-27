@@ -1,0 +1,40 @@
+---
+title: "R01_3_ 1_plot"
+author: "ruru"
+date: "2020/3/27"
+output: html_document
+---
+
+```{r eval = TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(datasets)
+dim(iris)
+```
+
+```{r}
+head (iris)
+```
+
+```{r}
+plot (iris$Species)
+```
+
+```{r }
+plot(iris$Petal.Length)
+```
+
+```{r }
+plot(iris$Species, iris$Petal.Width)
+```
+
+```{r}
+plot(iris$Petal.Length, iris$Petal.Width)
+```
+
+```{r }
+plot(iris)
+```
